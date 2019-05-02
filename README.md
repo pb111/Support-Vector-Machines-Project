@@ -1,3 +1,3 @@
-# Support Vector Machines with Python Project
+# Support Vector Machines with Python and Scikit-Learn
 
 
