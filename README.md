@@ -5,9 +5,11 @@ In this project, I build a Support Vector Machines classifier to classify a Puls
 
 ===============================================================================
 
+
 ## Table of Contents
 
 I have categorized this project into various sections which are listed below:-
+
 
 1.	Introduction to Support Vector Machines
 2.	Types of SVM classifier
@@ -21,20 +23,7 @@ I have categorized this project into various sections which are listed below:-
 10.	References
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+===============================================================================
 
 
 ## 1. Introduction to Support Vector Machines
@@ -45,6 +34,8 @@ The original SVM algorithm was developed by Vladimir N Vapnik and Alexey Ya. Che
 
 SVMs can be used for linear classification purposes. In addition to performing linear classification, SVMs can efficiently perform a non-linear classification using the **kernel trick**. It enable us to implicitly map the inputs into high dimensional feature spaces.
 
+
+===============================================================================
 
 
 ## 2. Types of SVM classifier
@@ -63,8 +54,7 @@ In the linear SVM Classifier, we assume that training samples are plotted in spa
 In general, any real world dataset is dispersed up to some extent. So, the datasets cannot be separated into different classes on the basis of a straight line hyperplane. So, Vapnik suggested to create non-linear classifiers by applying the kernel trick (discussed later) to maximum-margin hyperplanes. In non-linear SVM classification, the data points are plotted in a higher dimensional space.
 
 
-
-
+===============================================================================
 
 
 ## 3. Support Vector Machines intuition
@@ -107,6 +97,8 @@ In such a situation, SVMs uses a `kernel trick` to transform the input space to 
 
 ## D – SVM kernel trick
 
+
+===============================================================================
 
 
 ## 4. Kernel trick
@@ -156,6 +148,8 @@ Sigmoid kernel has its origin in neural networks. We can use it as the proxy for
 ** sigmoid kernel – k (x, y) = tanh(αxTy + c) **
 
 
+===============================================================================
+
 
 ## 5. Advantages and disadvantages of SVM
 SVMs have quite a number of advantages and disadvantages. These are listed in the following paragraphs.
@@ -171,14 +165,29 @@ The disadvantages of SVM classifier are listed below:-
 3.	SVMs have good generalization performance but they can be extremely slow in the testing phase.
 4.	They have high algorithmic complexity and extensive memory requirements due to the use of quadratic programming.
 
+
+===============================================================================
+
+
 ## 6. SVM Scikit-Learn libraries
 Scikit-Learn provides useful libraries to implement Support Vector Machine algorithm on       a dataset. There are many libraries that can help us to implement SVM smoothly. We just need to call the library with parameters that suit to our needs. In this project, I am dealing with a classification task. So, I will mention the Scikit-Learn libraries for SVM classification purposes.
 First, there is a **LinearSVC()** classifier. As the name suggests, this classifier uses only linear kernel. In LinearSVC() classifier, we don’t pass the value of kernel since it is used only for linear classification purposes.
 Scikit-Learn provides two other classifiers - **SVC()** and **NuSVC()** which are used for classification purposes. These classifiers are mostly similar with some difference in parameters.  NuSVC() is similar to SVC but uses a parameter to control the number of support vectors. We pass the values of `kernel`, `gamma` and `C` along with other parameters. By default kernel parameter uses “rbf” as its value but we can pass values like “poly”, “linear”, “sigmoid” or callable function. 
 
 
+===============================================================================
+
+
 ## 7. The problem statement
+
+
+===============================================================================
+
+
 ## 8. Results and conclusion
+
+
+===============================================================================
 
 
 ## 9. Applications of SVM
@@ -194,6 +203,7 @@ SVMs are the by-product of neural network. They are widely used in pattern class
 5.	The SVM algorithm has been widely applied in biological and other sciences.
 
 
+===============================================================================
 
 
 ## 10. References
