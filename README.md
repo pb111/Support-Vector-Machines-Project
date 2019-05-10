@@ -252,6 +252,12 @@ Scikit-Learn provides two other classifiers - **SVC()** and **NuSVC()** which ar
 ## 7. The problem statement
 
 
+In this project, I try to classify a pulsar star as `legitimate` or `spurious` pulsar star. The legitimate pulsar stars form a minority positive class and spurious pulsar stars form the majority negative class. I implement Support Vector Machines (SVMs) classification algorithm with Python and Scikit-Learn to solve this problem. 
+
+
+To answer the question, I build a SVM classifier to classify the pulsar star as legitimate or spurious. I have used the **Predicting a Pulsar Star** dataset downloaded from the Kaggle website for this project.
+
+
 ===============================================================================
 
 
