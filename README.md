@@ -128,7 +128,7 @@ In practice, SVM algorithm is implemented using a `kernel`. It uses a technique 
 We can define a kernel function as follows-
 
 
-## D – kernel function
+![kernel function](https://github.com/pb111/Support-Vector-Machines-Project/blob/master/Images/kernel%20function.png)
 
 
 The value of this function is 1 inside the closed ball of radius 1 centered at the origin, and 0 otherwise.
@@ -153,7 +153,7 @@ Training with a linear kernel is usually faster, because we only need to optimiz
 Linear kernel can be visualized with the following figure.
 
 
-## D – SVM linear kernel
+![SVM linear kernel](https://github.com/pb111/Support-Vector-Machines-Project/blob/master/Images/SVM%20linear%20kernel.png)
 
 
 ### 2. Polynomial Kernel 
@@ -166,11 +166,12 @@ For degree-d polynomials, the polynomial kernel is defined as follows –
 
 
 **Polynomial kernel : K(xi , xj ) = (γxiT xj + r)d , γ > 0**
+
  
 Polynomial kernel is very popular in Natural Language Processing. The most common degree is d = 2 (quadratic), since larger degrees tend to overfit on NLP problems. It can be visualized with the following diagram.
 
 
-## D – SVM Polynomial kernel
+![SVM Polynomial kernel](https://github.com/pb111/Support-Vector-Machines-Project/blob/master/Images/SVM%20polynomial%20kernel.png)
 
 
 ### 3. Radial Basis Function Kernel
@@ -179,13 +180,13 @@ Polynomial kernel is very popular in Natural Language Processing. The most commo
 Radial basis function kernel is a general purpose kernel. It is used when we have no prior knowledge about the data. The RBF kernel on two samples x and y is defined by the following equation –
 
 
-## D – SVM RBF Kernel
+![SVM RBF Kernel](https://github.com/pb111/Support-Vector-Machines-Project/blob/master/Images/SVM%20RBF%20Kernel.png)
 
 
 It is a popular kernel function and is commonly used in support vector machine classification. We can visualize the RBF kernel with the following figure -
 
 
-## D – SVM RBF Kernel diagram
+![SVM RBF Kernel diagram](https://github.com/pb111/Support-Vector-Machines-Project/blob/master/Images/SVM%20RBF%20Kernel%20diagram.png)
 
 
 ### 4. Sigmoid kernel
