@@ -122,18 +122,33 @@ We can define a kernel function as follows-
 The value of this function is 1 inside the closed ball of radius 1 centered at the origin, and 0 otherwise.
 In the context of SVMs, there are 4 popular kernels – `Linear kernel`, `Polynomial kernel` and `Radial Basis Function (RBF) kernel` (also called Gaussian kernel) and `Sigmoid kernel`. These are described below-
 
-### 1. Linear kernel 
+### 1. Linear kernel
+
+
 In linear kernel, the kernel function takes the form of a linear function as follows-
+
+
 **linear kernel : K(xi , xj ) = xiT xj**
+
+
 Linear kernel is used when the data is linearly separable. It means that data can be separated using a single line. It is one of the most common kernels to be used. It is mostly used when there are large number of features in a dataset. Linear kernel is often used for text classification purposes. 
+
+
 Training with a linear kernel is usually faster, because we only need to optimize the C regularization parameter. When training with other kernels, we also need to optimize the γ parameter. So, performing a grid search will usually take more time.
 
 
 Linear kernel can be visualized with the following figure.
+
+
 ## D – SVM linear kernel
 
+
 ### 2. Polynomial Kernel 
+
+
 Polynomial kernel represents the similarity of vectors (training samples) in a feature space over polynomials of the original variables. The polynomial kernel looks not only at the given features of input samples to determine their similarity, but also combinations of the input samples. 
+
+
 For degree-d polynomials, the polynomial kernel is defined as follows –
 
 
@@ -141,40 +156,63 @@ For degree-d polynomials, the polynomial kernel is defined as follows –
  
 Polynomial kernel is very popular in Natural Language Processing. The most common degree is d = 2 (quadratic), since larger degrees tend to overfit on NLP problems. It can be visualized with the following diagram.
 
+
 ## D – SVM Polynomial kernel
 
 
-
 ### 3. Radial Basis Function Kernel
+
+
 Radial basis function kernel is a general purpose kernel. It is used when we have no prior knowledge about the data. The RBF kernel on two samples x and y is defined by the following equation –
+
 
 ## D – SVM RBF Kernel
 
+
 It is a popular kernel function and is commonly used in support vector machine classification. We can visualize the RBF kernel with the following figure -
+
 
 ## D – SVM RBF Kernel diagram
 
 
 ### 4. Sigmoid kernel
+
+
 Sigmoid kernel has its origin in neural networks. We can use it as the proxy for neural networks. Sigmoid kernel is given by the following equation –
-** sigmoid kernel – k (x, y) = tanh(αxTy + c) **
+
+**sigmoid kernel – k (x, y) = tanh(αxTy + c) **
 
 
 ===============================================================================
 
 
 ## 5. Advantages and disadvantages of SVM
+
+
 SVMs have quite a number of advantages and disadvantages. These are listed in the following paragraphs.
+
+
 The advantages of SVM classifier are as follows:-
+
+
 1.	SVMs are effective when we have a very large feature space or number of features are very large.
+
 2.	It works effectively even if the number of features are greater than the number of samples.
+
 3.	Non-linear datasets can also be effectively classified using customized hyperplanes formed by using the kernel trick.
+
 4.	It is a very robust model to solve prediction problems because it maximizes margin.
 
+
 The disadvantages of SVM classifier are listed below:-
+
+
 1.	Probably the biggest drawback of SVM is that as sample size increases, it performs poorly.
+
 2.	Another disadvantage of SVM is the choice of kernel. The wrong kernel can lead to an increase in error percentage.
+
 3.	SVMs have good generalization performance but they can be extremely slow in the testing phase.
+
 4.	They have high algorithmic complexity and extensive memory requirements due to the use of quadratic programming.
 
 
