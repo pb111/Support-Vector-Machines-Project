@@ -182,9 +182,15 @@ The disadvantages of SVM classifier are listed below:-
 
 
 ## 6. SVM Scikit-Learn libraries
-Scikit-Learn provides useful libraries to implement Support Vector Machine algorithm on       a dataset. There are many libraries that can help us to implement SVM smoothly. We just need to call the library with parameters that suit to our needs. In this project, I am dealing with a classification task. So, I will mention the Scikit-Learn libraries for SVM classification purposes.
+
+
+Scikit-Learn provides useful libraries to implement Support Vector Machine algorithm on a dataset. There are many libraries that can help us to implement SVM smoothly. We just need to call the library with parameters that suit to our needs. In this project, I am dealing with a classification task. So, I will mention the Scikit-Learn libraries for SVM classification purposes.
+
+
 First, there is a **LinearSVC()** classifier. As the name suggests, this classifier uses only linear kernel. In LinearSVC() classifier, we don’t pass the value of kernel since it is used only for linear classification purposes.
-Scikit-Learn provides two other classifiers - **SVC()** and **NuSVC()** which are used for classification purposes. These classifiers are mostly similar with some difference in parameters.  NuSVC() is similar to SVC but uses a parameter to control the number of support vectors. We pass the values of `kernel`, `gamma` and `C` along with other parameters. By default kernel parameter uses “rbf” as its value but we can pass values like “poly”, “linear”, “sigmoid” or callable function. 
+
+
+Scikit-Learn provides two other classifiers - **SVC()** and **NuSVC()** which are used for classification purposes. These classifiers are mostly similar with some difference in parameters.  **NuSVC()** is similar to **SVC()** but uses a parameter to control the number of support vectors. We pass the values of `kernel`, `gamma` and `C` along with other parameters. By default kernel parameter uses `rbf` as its value but we can pass values like `poly`, `linear`, `sigmoid` or `callable` function. 
 
 
 ===============================================================================
@@ -202,8 +208,12 @@ Scikit-Learn provides two other classifiers - **SVC()** and **NuSVC()** which ar
 ===============================================================================
 
 
-## 9. Applications of SVM
+## 9. Applications of SVMs
+
+
 SVMs are the by-product of neural network. They are widely used in pattern classification and classification and regression problems. Some applications of SVMs are listed below-
+
+
 1.	Facial expression classification – SVMs can be used to classify facial expressions. It uses statistical models of shape and SVMs.
 
 2.	Speech recognition – SVMs are used to accept keywords and reject non-keywords. Hence, they are used to build a model to recognize speech.
@@ -220,15 +230,23 @@ SVMs are the by-product of neural network. They are widely used in pattern class
 
 ## 10. References
 
+
 The work done in this project is inspired from following books and websites:-
 
 1.	Hands on Machine Learning with Scikit-Learn and Tensorflow by Aurélién Géron
+
 2.	Introduction to Machine Learning with Python
+
 3.	Udemy course – Machine Learning – A Z by Kirill Eremenko and Hadelin de Ponteves
+
 4.	Udemy course – Feature Engineering for Machine Learning by Soledad Galli
+
 5.	https://en.wikipedia.org/wiki/Support-vector_machine
+
 6.	https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python
+
 7.	http://dataaspirant.com/2017/01/13/support-vector-machine-algorithm/
+
 8.	https://www.ritchieng.com/machine-learning-evaluate-classification-model/ 
 
 9.	https://en.wikipedia.org/wiki/Kernel_method
