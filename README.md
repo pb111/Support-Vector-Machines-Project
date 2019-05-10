@@ -85,9 +85,11 @@ Support vectors are the sample data points, which are closest to the hyperplane.
 
 A margin is a separation gap between the two lines on the closest data points. It is calculated as the perpendicular distance from the line to support vectors or closest data points. In SVMs, we try to maximize this separation gap so that we get maximum margin.
 
+
 The following diagram illustrates these concepts visually.
 
-## D – SVM Terminology
+
+![SVM Terminology](https://github.com/pb111/Support-Vector-Machines-Project/blob/master/Images/SVM%20Terminology.png)
 
 
 ### SVM Under the hood
