@@ -39,18 +39,30 @@ SVMs can be used for linear classification purposes. In addition to performing l
 
 
 ## 2. Types of SVM classifier
+
+
 In a dataset, where we have features and labels, an SVM classifier builds a model to predict classes for new examples.  It assigns new data points to one of the predicted classes. If there are only two classes, then it can be called as a `Binary SVM Classifier`. If we have more than two classes, then it is called ` Multi SVM Classifier`.
+
 
 There are 2 kinds of SVM classifiers –
 
 1.	Linear SVM Classifier
+
 2.	Non-linear SVM Classifier
 
+
 These are described below-
-** 1. Linear SVM Classifier**
+
+
+### 1. Linear SVM Classifier
+
+
 In the linear SVM Classifier, we assume that training samples are plotted in space. These samples are expected to be separated by an apparent gap. It predicts a straight hyperplane that divides the two classes. The primary focus while drawing the hyperplane is on maximizing the distance from hyperplane to the nearest sample data point of either class. The drawn hyperplane is called a `maximum-margin hyperplane`.
 
-** 2. Non-linear SVM Classifier**
+
+### 2. Non-linear SVM Classifier
+
+
 In general, any real world dataset is dispersed up to some extent. So, the datasets cannot be separated into different classes on the basis of a straight line hyperplane. So, Vapnik suggested to create non-linear classifiers by applying the kernel trick (discussed later) to maximum-margin hyperplanes. In non-linear SVM classification, the data points are plotted in a higher dimensional space.
 
 
