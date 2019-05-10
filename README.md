@@ -101,15 +101,19 @@ In SVMs, our main objective is to select a hyperplane with the maximum possible 
 
 The following diagram illustrates the concept of **maximum margin** and **maximum margin hyperplane** in a clear manner. 
 
-## D – SVM - MMH
+
+![SVM - Maximum Margin Hyperplane](https://github.com/pb111/Support-Vector-Machines-Project/blob/master/Images/SVM%20MMH.jpg)
 
 
 
 ### The problem of dispersed datasets
+
+
 Sometimes, the sample data points are so dispersed that it is not possible to separate them using a linear hyperplane. 
 In such a situation, SVMs uses a `kernel trick` to transform the input space to a higher dimensional space as shown in the diagram below. It uses a mapping function to transform the 2-D input space into the 3-D input space. Now, we can easily segregate the data points using linear separation.
 
-## D – SVM kernel trick
+
+![SVM kernel trick](https://github.com/pb111/Support-Vector-Machines-Project/blob/master/Images/SVM%20kernel%20trick.png)
 
 
 ===============================================================================
