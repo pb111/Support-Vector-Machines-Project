@@ -2,6 +2,9 @@
 
 In this project, I build a Support Vector Machines classifier to classify a Pulsar star. I have used the **Predicting a Pulsar Star** dataset for this project. I have downloaded this dataset from the Kaggle website.
 
+
+======================================================================
+
 ## Table of Contents
 
 I have categorized this project into various sections which are listed below:-
