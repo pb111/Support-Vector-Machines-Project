@@ -188,7 +188,7 @@ It is a popular kernel function and is commonly used in support vector machine c
 Sigmoid kernel has its origin in neural networks. We can use it as the proxy for neural networks. Sigmoid kernel is given by the following equation –
 
 
-**sigmoid kernel – k (x, y) = tanh(αxTy + c) **
+**sigmoid kernel – k (x, y) = tanh(αxTy + c)**
 
 
 ===============================================================================
