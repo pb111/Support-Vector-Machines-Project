@@ -114,13 +114,20 @@ In such a situation, SVMs uses a `kernel trick` to transform the input space to 
 
 
 ## 4. Kernel trick
+
+
 In practice, SVM algorithm is implemented using a `kernel`. It uses a technique called the `kernel trick`. In simple words, a `kernel` is just a function that maps the data to a higher dimension where data is separable. A kernel transforms a low-dimensional input data space into a higher dimensional space. So, it converts non-linear separable problems to linear separable problems by adding more dimensions to it. Thus, the kernel trick helps us to build a more accurate classifier. Hence, it is useful in non-linear separation problems.
+
+
 We can define a kernel function as follows-
+
 
 ## D – kernel function
 
+
 The value of this function is 1 inside the closed ball of radius 1 centered at the origin, and 0 otherwise.
 In the context of SVMs, there are 4 popular kernels – `Linear kernel`, `Polynomial kernel` and `Radial Basis Function (RBF) kernel` (also called Gaussian kernel) and `Sigmoid kernel`. These are described below-
+
 
 ### 1. Linear kernel
 
@@ -179,6 +186,7 @@ It is a popular kernel function and is commonly used in support vector machine c
 
 
 Sigmoid kernel has its origin in neural networks. We can use it as the proxy for neural networks. Sigmoid kernel is given by the following equation –
+
 
 **sigmoid kernel – k (x, y) = tanh(αxTy + c) **
 
